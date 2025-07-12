@@ -22,7 +22,7 @@ Welcome to **The Git Relay** - a collaborative coding challenge where teamwork a
 ### Challenge Flow
 
 ```
-Problem 1 (C) → Clue A → Problem 2 (C++) → Clue B → Problem 3 (Python) → Clue C → Problem 4 (Java/Web) → Final Solution
+Problem 1 (C) → Clue A → Problem 2 (C++) → Clue B → Problem 3 (Python) → Clue C → Problem 4 (Java) → Final Solution
 ```
 
 ### Git Workflow
@@ -52,16 +52,10 @@ Before starting, ensure you have the following installed:
 - **Python 3.x** interpreter
 - Command to test: `python --version` or `python3 --version`
 
-### For Java (Problem 4 Option A)
+### For Java (Problem 4)
 
 - **JDK 8 or higher** (includes JRE and JVM)
 - Command to test: `javac --version` and `java --version`
-
-### For Web Development (Problem 4 Option B)
-
-- **Web Browser** (Chrome, Firefox, Safari, etc.)
-- **Live Server Extension** (recommended for VS Code)
-- Or any local web server
 
 ### Git Requirements
 
@@ -85,7 +79,7 @@ Before starting, ensure you have the following installed:
    - Member 1: Problem 1 (C)
    - Member 2: Problem 2 (C++)
    - Member 3: Problem 3 (Python)
-   - Member 4: Problem 4 (Java/Web)
+   - Member 4: Problem 4 (Java)
 
 3. **Sequential workflow**
 
@@ -124,25 +118,25 @@ git-relay-challenge/
 
 ## 🎮 Challenge Overview
 
-### Problem 1: C Programming (10 minutes)
+### Problem 1: C Programming 
 
 **Focus**: Array manipulation and basic algorithms
 **Errors**: 2 logical + 2 syntax errors
 **Output**: Clue for C++ problem
 
-### Problem 2: C++ Programming (10 minutes)
+### Problem 2: C++ Programming 
 
 **Focus**: Object-oriented programming and STL
 **Errors**: 2 logical + 2 syntax errors  
 **Output**: Clue for Python problem
 
-### Problem 3: Python (10 minutes)
+### Problem 3: Python 
 
 **Focus**: Data structures and string manipulation
 **Errors**: 2 logical + 2 syntax errors
 **Output**: Clue for final problem
 
-### Problem 4: Final Challenge (10 minutes)
+### Problem 4: Final Challenge 
 
 **Focus**: Integration of all clues
 **Errors**: 2 logical + 2 syntax errors
