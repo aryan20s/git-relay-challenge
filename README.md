@@ -93,8 +93,6 @@ Before starting, ensure you have the following installed:
    git push origin main
    ```
 
-```
-
 ## 🎮 Challenge Overview
 
 ### Problem 1: C Programming 
