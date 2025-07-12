@@ -93,27 +93,6 @@ Before starting, ensure you have the following installed:
    git push origin main
    ```
 
-## 📁 Repository Structure
-
-```
-git-relay-challenge/
-├── README.md                    # This file - game rules
-├── problem1-c/
-│   ├── challenge.c             # C problem with 4 errors
-│   └── README.md               # Problem 1 instructions
-├── problem2-cpp/
-│   ├── challenge.cpp           # C++ problem with 4 errors
-│   └── README.md               # Problem 2 instructions
-├── problem3-python/
-│   ├── challenge.py            # Python problem with 4 errors
-│   └── README.md               # Problem 3 instructions
-├── problem4-final/
-│   ├── challenge.java          # Java problem with 4 errors
-│   ├── index.html              # Alternative web challenge
-│   ├── script.js               # JavaScript file
-│   └── README.md               # Problem 4 instructions
-├── .gitignore                  # Ignores backup and solution files
-└── backup-original/            # Original questions (gitignored)
 ```
 
 ## 🎮 Challenge Overview
