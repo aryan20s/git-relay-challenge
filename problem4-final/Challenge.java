@@ -43,7 +43,7 @@ public class Challenge {
         
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                if (arr[j] < arr[j + 1]) {  
+                if (arr[j] > arr[j + 1]) {  
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -59,22 +59,22 @@ public class Challenge {
     }
     
     public static void main(String[] args) {
-        String previousClue = ""; //Use clue from Problem 3
+        String previousClue = "JAVA_SORT_[0,1,1,2,3,5,8,13]"; //Use clue from Problem 3
         
         System.out.println("Using clue from Problem 3: " + previousClue);
         
         int[] extractedArray = parseClueArray(previousClue);
-        System.out.println("Extracted array: " + Arrays.toString(extractedArray))  
+        System.out.println("Extracted array: " + Arrays.toString(extractedArray));
         
         bubbleSort(extractedArray);
         System.out.println("Array after custom sort: " + Arrays.toString(extractedArray));
         
-        displayFinalSolution()  
+        displayFinalSolution();
     }
 }
 
 /*
 SOLUTION - PASTE YOUR FINAL SOLUTION HERE:
-Member Name: ________________
-Final Solution Message: ________________
+Member Name: Aryan
+Final Solution Message: [0, 1, 1, 2, 3, 5, 8, 13]
 */
